@@ -1,1 +1,19 @@
-/* style all do site*/
+/* style all do site */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+}
+
+h1{
+    padding: 10px;
+    color:white;
+   
+}
