@@ -15,6 +15,7 @@ body{
     background: black url('../img/back-phone.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
+    
 }
 
 h1{
@@ -22,21 +23,25 @@ h1{
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:2em;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.658);    
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.658); 
+      
 }
 
 main{
     background-color: rgba(255, 255, 255, 0.685);
     width: 90vw;
     border-radius: 5px;
-    margin: 0 auto;
+    display: block;
+    margin:auto;
     margin-top: 10px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.63);
 }
 
-#phone{
+main img{
     margin: auto;
 }
+
+
 
 img#phone{ display: block; }
 img#tablet{display: none;}
